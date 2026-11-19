@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-11-11T01:05:22.932Z",
+  "results": [
+    {
+      "width": 1120,
+      "scrollWidth": 1105,
+      "headerHeight": 89,
+      "navLeft": 366.9375,
+      "navRight": 818.515625,
+      "links": [
+        {
+          "label": "Painel",
+          "clientWidth": 84,
+          "scrollWidth": 84
+        },
+        {
+          "label": "Ocorrências5",
+          "clientWidth": 142,
+          "scrollWidth": 142
+        },
+        {
+          "label": "Imagens",
+          "clientWidth": 96,
+          "scrollWidth": 96
+        },
+        {
+          "label": "O projeto",
+          "clientWidth": 102,
+          "scrollWidth": 102
+        }
+      ],
+      "scrolled": {
+        "scrollY": 500,
+        "headerTop": 0,
+        "headerPosition": "sticky"
+      }
+    },
+    {
+      "width": 960,
+      "scrollWidth": 945,
+      "headerHeight": 89,
+      "navLeft": 286.9375,
+      "navRight": 738.515625,
+      "links": [
+        {
+          "label": "Painel",
+          "clientWidth": 84,
+          "scrollWidth": 84
+        },
+        {
+          "label": "Ocorrências5",
+          "clientWidth": 142,
+          "scrollWidth": 142
+        },
+        {
+          "label": "Imagens",
+          "clientWidth": 96,
+          "scrollWidth": 96
+        },
+        {
+          "label": "O projeto",
+          "clientWidth": 102,
+          "scrollWidth": 102
+        }
+      ],
+      "scrolled": {
+        "scrollY": 500,
+        "headerTop": 0,
+        "headerPosition": "sticky"
+      }
+    }
+  ]
+}

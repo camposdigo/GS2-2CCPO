@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-11-10T00:34:50.877Z",
+  "browser": "Existing local Google Chrome headless via CDP",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "total": "4",
+      "water": "53,6%",
+      "hasChart": true,
+      "overflow": []
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "scrollWidth": 390,
+      "total": "4",
+      "water": "53,6%",
+      "hasChart": true,
+      "overflow": [
+        {
+          "tag": "A",
+          "class": "nav-item",
+          "width": 110.21875
+        },
+        {
+          "tag": "DIV",
+          "class": "territory-art",
+          "width": 190
+        },
+        {
+          "tag": "svg",
+          "class": {},
+          "width": 190
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "width": 72.3800048828125
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "width": 69.66574096679688
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "width": 67.40386962890625
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "width": 139.78387451171875
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "width": 30.761505126953125
+        }
+      ]
+    }
+  ],
+  "modal": {
+    "open": true,
+    "hasRegion": true,
+    "descriptionMax": 600
+  },
+  "navigation": {
+    "visible": true,
+    "count": 4
+  },
+  "errors": []
+}

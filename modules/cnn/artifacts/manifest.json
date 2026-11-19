@@ -1,0 +1,440 @@
+{
+  "name": "TerritorioVivoCNN",
+  "version": "1.0.0",
+  "dataMode": "trained_model",
+  "trainedAt": "2026-11-10T00:32:06.883186+00:00",
+  "seed": 42,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "labels": {
+    "AnnualCrop": "Cultivo anual",
+    "Forest": "Floresta",
+    "HerbaceousVegetation": "Vegetação herbácea",
+    "Highway": "Rodovia",
+    "Industrial": "Área industrial",
+    "Pasture": "Pastagem",
+    "PermanentCrop": "Cultivo permanente",
+    "Residential": "Área residencial",
+    "River": "Rio",
+    "SeaLake": "Mar ou lago"
+  },
+  "selectedExperiment": {
+    "name": "mais_filtros",
+    "filters": [
+      24,
+      48,
+      96
+    ],
+    "learningRate": 0.001
+  },
+  "input": {
+    "width": 64,
+    "height": 64,
+    "channels": 3,
+    "normalization": "RGB / 255"
+  },
+  "dataset": {
+    "url": "https://huggingface.co/datasets/torchgeo/eurosat/resolve/c877bcd43f099cd0196738f714544e355477f3fd/EuroSAT.zip",
+    "md5": "c8fa014336c82ac7804f0398fcb19387",
+    "sha256": "8ebea626349354c5328b142b96d0430e647051f26efc2dc974c843f25ecf70bd",
+    "authors": "Patrick Helber, Benjamin Bischke, Andreas Dengel, Damian Borth",
+    "reference": "https://github.com/phelber/EuroSAT",
+    "license": "MIT; também observar termos dos dados Copernicus Sentinel",
+    "verifiedAt": "2026-11-10T00:25:33.722497+00:00",
+    "fetchedAt": null,
+    "provenanceNote": "Hash verificado no treino. Momento original de download do arquivo local não foi preservado."
+  },
+  "splitCounts": {
+    "train": 3500,
+    "validation": 750,
+    "test": 750
+  },
+  "selectionCriterion": "Maior macro-F1 na validação; melhor época por esse critério.",
+  "experiments": [
+    {
+      "name": "duas_camadas",
+      "filters": [
+        16,
+        32
+      ],
+      "learningRate": 0.001,
+      "epochs": 4,
+      "bestValidationMacroF1": 0.5778457599569276,
+      "parameters": 14090,
+      "seconds": 43.98,
+      "history": [
+        {
+          "epoch": 1,
+          "validationAccuracy": 0.34,
+          "validationMacroF1": 0.2599993700706527,
+          "validationLoss": 1.841372080485026
+        },
+        {
+          "epoch": 2,
+          "validationAccuracy": 0.5293333333333333,
+          "validationMacroF1": 0.49376729257398766,
+          "validationLoss": 1.3487984466552734
+        },
+        {
+          "epoch": 3,
+          "validationAccuracy": 0.584,
+          "validationMacroF1": 0.5778457599569276,
+          "validationLoss": 1.1258087793986002
+        },
+        {
+          "epoch": 4,
+          "validationAccuracy": 0.544,
+          "validationMacroF1": 0.4990438026855564,
+          "validationLoss": 1.1580248336791992
+        }
+      ]
+    },
+    {
+      "name": "tres_camadas",
+      "filters": [
+        16,
+        32,
+        64
+      ],
+      "learningRate": 0.001,
+      "epochs": 4,
+      "bestValidationMacroF1": 0.5969118705990419,
+      "parameters": 40906,
+      "seconds": 73.38,
+      "history": [
+        {
+          "epoch": 1,
+          "validationAccuracy": 0.348,
+          "validationMacroF1": 0.26690679773036763,
+          "validationLoss": 1.8934148661295573
+        },
+        {
+          "epoch": 2,
+          "validationAccuracy": 0.5986666666666667,
+          "validationMacroF1": 0.5521639259434045,
+          "validationLoss": 1.0973374303181966
+        },
+        {
+          "epoch": 3,
+          "validationAccuracy": 0.5573333333333333,
+          "validationMacroF1": 0.5428643020163627,
+          "validationLoss": 1.1559059244791667
+        },
+        {
+          "epoch": 4,
+          "validationAccuracy": 0.616,
+          "validationMacroF1": 0.5969118705990419,
+          "validationLoss": 1.021884646097819
+        }
+      ]
+    },
+    {
+      "name": "mais_filtros",
+      "filters": [
+        24,
+        48,
+        96
+      ],
+      "learningRate": 0.001,
+      "epochs": 4,
+      "bestValidationMacroF1": 0.6873358999289745,
+      "parameters": 78282,
+      "seconds": 162.08,
+      "history": [
+        {
+          "epoch": 1,
+          "validationAccuracy": 0.348,
+          "validationMacroF1": 0.25824881848847114,
+          "validationLoss": 2.2223242797851563
+        },
+        {
+          "epoch": 2,
+          "validationAccuracy": 0.5626666666666666,
+          "validationMacroF1": 0.5089772705038096,
+          "validationLoss": 1.2877350222269695
+        },
+        {
+          "epoch": 3,
+          "validationAccuracy": 0.676,
+          "validationMacroF1": 0.6873358999289745,
+          "validationLoss": 0.8658330764770508
+        },
+        {
+          "epoch": 4,
+          "validationAccuracy": 0.5226666666666666,
+          "validationMacroF1": 0.4731192000027347,
+          "validationLoss": 1.7113409385681153
+        }
+      ]
+    },
+    {
+      "name": "taxa_menor",
+      "filters": [
+        16,
+        32,
+        64
+      ],
+      "learningRate": 0.0003,
+      "epochs": 4,
+      "bestValidationMacroF1": 0.6308605401442559,
+      "parameters": 40906,
+      "seconds": 61.16,
+      "history": [
+        {
+          "epoch": 1,
+          "validationAccuracy": 0.372,
+          "validationMacroF1": 0.30201178691298114,
+          "validationLoss": 1.9174517923990886
+        },
+        {
+          "epoch": 2,
+          "validationAccuracy": 0.58,
+          "validationMacroF1": 0.5463418641531552,
+          "validationLoss": 1.262331537882487
+        },
+        {
+          "epoch": 3,
+          "validationAccuracy": 0.604,
+          "validationMacroF1": 0.5904394384311151,
+          "validationLoss": 1.1137154083251952
+        },
+        {
+          "epoch": 4,
+          "validationAccuracy": 0.6426666666666667,
+          "validationMacroF1": 0.6308605401442559,
+          "validationLoss": 1.0367387924194336
+        }
+      ]
+    }
+  ],
+  "test": {
+    "accuracy": 0.6813333333333333,
+    "macroF1": 0.6892226313885449,
+    "loss": 0.8766381301879883,
+    "samples": 750,
+    "confusionMatrix": [
+      [
+        63,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        6,
+        1
+      ],
+      [
+        0,
+        57,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        10,
+        1
+      ],
+      [
+        4,
+        0,
+        29,
+        10,
+        1,
+        1,
+        21,
+        0,
+        6,
+        3
+      ],
+      [
+        6,
+        0,
+        2,
+        29,
+        1,
+        5,
+        11,
+        0,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        13,
+        61,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        1,
+        8,
+        0,
+        46,
+        1,
+        0,
+        15,
+        0
+      ],
+      [
+        9,
+        0,
+        3,
+        11,
+        1,
+        1,
+        49,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10,
+        2,
+        0,
+        1,
+        62,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        0,
+        13,
+        0,
+        0,
+        1,
+        0,
+        55,
+        0
+      ],
+      [
+        4,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        60
+      ]
+    ],
+    "perClass": [
+      {
+        "precision": 0.65625,
+        "recall": 0.84,
+        "f1": 0.736842105263158,
+        "support": 75,
+        "className": "AnnualCrop",
+        "label": "Cultivo anual"
+      },
+      {
+        "precision": 0.8636363636363636,
+        "recall": 0.76,
+        "f1": 0.8085106382978724,
+        "support": 75,
+        "className": "Forest",
+        "label": "Floresta"
+      },
+      {
+        "precision": 0.7837837837837838,
+        "recall": 0.38666666666666666,
+        "f1": 0.5178571428571429,
+        "support": 75,
+        "className": "HerbaceousVegetation",
+        "label": "Vegetação herbácea"
+      },
+      {
+        "precision": 0.30526315789473685,
+        "recall": 0.38666666666666666,
+        "f1": 0.3411764705882353,
+        "support": 75,
+        "className": "Highway",
+        "label": "Rodovia"
+      },
+      {
+        "precision": 0.9242424242424242,
+        "recall": 0.8133333333333334,
+        "f1": 0.8652482269503545,
+        "support": 75,
+        "className": "Industrial",
+        "label": "Área industrial"
+      },
+      {
+        "precision": 0.7666666666666667,
+        "recall": 0.6133333333333333,
+        "f1": 0.6814814814814815,
+        "support": 75,
+        "className": "Pasture",
+        "label": "Pastagem"
+      },
+      {
+        "precision": 0.5764705882352941,
+        "recall": 0.6533333333333333,
+        "f1": 0.6124999999999999,
+        "support": 75,
+        "className": "PermanentCrop",
+        "label": "Cultivo permanente"
+      },
+      {
+        "precision": 0.9841269841269841,
+        "recall": 0.8266666666666667,
+        "f1": 0.898550724637681,
+        "support": 75,
+        "className": "Residential",
+        "label": "Área residencial"
+      },
+      {
+        "precision": 0.4700854700854701,
+        "recall": 0.7333333333333333,
+        "f1": 0.5729166666666666,
+        "support": 75,
+        "className": "River",
+        "label": "Rio"
+      },
+      {
+        "precision": 0.9230769230769231,
+        "recall": 0.8,
+        "f1": 0.8571428571428571,
+        "support": 75,
+        "className": "SeaLake",
+        "label": "Mar ou lago"
+      }
+    ]
+  },
+  "majorityClassBaselineAccuracy": 0.1,
+  "limitations": [
+    "EuroSAT contém paisagens europeias; não houve validação geográfica no Brasil.",
+    "Separação aleatória estratificada por arquivo; proximidade espacial pode inflar as métricas.",
+    "Somente RGB, imagens redimensionadas para 64×64; não mede potabilidade ou disponibilidade hídrica.",
+    "Pontuação softmax não é probabilidade calibrada de acerto; fotos comuns e imagens fora do domínio podem enganar a rede.",
+    "Resultado acadêmico experimental; não decide intervenções urbanas ou ambientais."
+  ],
+  "torchVersion": "2.15.0+cpu",
+  "weightsSha256": "e31d7b4b592e346f09bd83a78fda640d8e52f4cac2b9fe7a67db0bda63040cf2"
+}

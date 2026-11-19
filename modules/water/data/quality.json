@@ -1,0 +1,25 @@
+{
+  "rows": 3235,
+  "firstObservedAt": "2018-01-01",
+  "lastObservedAt": "2026-11-09",
+  "missingDates": [],
+  "nullFields": {
+    "volumePct": 0,
+    "rainMm": 0,
+    "inflowM3s": 0,
+    "withdrawalM3s": 0,
+    "downstreamM3s": 0,
+    "volumeHm3": 0
+  },
+  "imputation": "none",
+  "requestedAsOf": "2026-11-09",
+  "sourceLastDate": "2026-11-09",
+  "processedAt": "2026-11-10T00:29:18+00:00",
+  "offline": true,
+  "normalizedSha256": "7503226feae75cf5b69c910b93483b441a43978528718ea8addfeadbd78af01c",
+  "license": {
+    "identifier": "not-specified-by-source",
+    "termsUrl": "https://mananciais.sabesp.com.br/",
+    "note": "Portal público; licença específica de reutilização não localizada. Acesso público não equivale a licença aberta. Atribuir SABESP, preservar origem e confirmar termos antes de redistribuição comercial."
+  }
+}

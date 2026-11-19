@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "publisher": "SABESP",
+  "license": {
+    "identifier": "not-specified-by-source",
+    "termsUrl": "https://mananciais.sabesp.com.br/",
+    "note": "Portal público; licença específica de reutilização não localizada. Acesso público não equivale a licença aberta. Atribuir SABESP, preservar origem e confirmar termos antes de redistribuição comercial."
+  },
+  "responses": {
+    "https://mananciais.sabesp.com.br/api/v4/dados/ultima-data": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/dados/ultima-data",
+      "file": "data/raw/4e2317431c0f68f071f5c790a7a4cd03283aa1ea72b7a69d5e4b0c133a5a4b5a.json",
+      "sha256": "4e2317431c0f68f071f5c790a7a4cd03283aa1ea72b7a69d5e4b0c133a5a4b5a",
+      "bytes": 85,
+      "fetchedAt": "2026-11-10T00:18:23+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/parametros": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/parametros",
+      "file": "data/raw/beee3dc87259e76fbfef4f17b476adb790fca640dd95b85583c6807b59625fba.json",
+      "sha256": "beee3dc87259e76fbfef4f17b476adb790fca640dd95b85583c6807b59625fba",
+      "bytes": 4455,
+      "fetchedAt": "2026-11-10T00:18:23+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2018-01-01/2018-12-31": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2018-01-01/2018-12-31",
+      "file": "data/raw/323d7470d44c0c6950defabb8bb84af2f0a949d3e25a50d51881b2ffae05ed20.json",
+      "sha256": "323d7470d44c0c6950defabb8bb84af2f0a949d3e25a50d51881b2ffae05ed20",
+      "bytes": 309925,
+      "fetchedAt": "2026-11-10T00:18:25+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2019-01-01/2019-12-31": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2019-01-01/2019-12-31",
+      "file": "data/raw/909c4985f70635089dd6011c45851c6730264af29f269c123570b3e13f4029bf.json",
+      "sha256": "909c4985f70635089dd6011c45851c6730264af29f269c123570b3e13f4029bf",
+      "bytes": 310132,
+      "fetchedAt": "2026-11-10T00:18:26+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2020-01-01/2020-12-31": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2020-01-01/2020-12-31",
+      "file": "data/raw/87b07e2258fdb6b958d94cfd77842884d4c34511dd4953c2914c9a54c4f5624e.json",
+      "sha256": "87b07e2258fdb6b958d94cfd77842884d4c34511dd4953c2914c9a54c4f5624e",
+      "bytes": 310911,
+      "fetchedAt": "2026-11-10T00:18:27+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2021-01-01/2021-12-31": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2021-01-01/2021-12-31",
+      "file": "data/raw/19d8c706dc1ca41bc5352a0812cc5fea2d2ade66fda3bc74bb12387efe7b02ed.json",
+      "sha256": "19d8c706dc1ca41bc5352a0812cc5fea2d2ade66fda3bc74bb12387efe7b02ed",
+      "bytes": 310087,
+      "fetchedAt": "2026-11-10T00:18:29+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2022-01-01/2022-12-31": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2022-01-01/2022-12-31",
+      "file": "data/raw/cc368d3d23e8b6ca65f80fe805076261bfdefcb48734f8392b6c9435e6e74347.json",
+      "sha256": "cc368d3d23e8b6ca65f80fe805076261bfdefcb48734f8392b6c9435e6e74347",
+      "bytes": 310166,
+      "fetchedAt": "2026-11-10T00:18:31+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2023-01-01/2023-12-31": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2023-01-01/2023-12-31",
+      "file": "data/raw/0eab5b28deea8e8e35472cc063132e7a0fc013112d7191721450ed53929078ea.json",
+      "sha256": "0eab5b28deea8e8e35472cc063132e7a0fc013112d7191721450ed53929078ea",
+      "bytes": 310330,
+      "fetchedAt": "2026-11-10T00:18:32+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2024-01-01/2024-12-31": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2024-01-01/2024-12-31",
+      "file": "data/raw/9824fec7af31bec0d17aa19f61e09a582dca4908ca779ea903a76a71efa8bae9.json",
+      "sha256": "9824fec7af31bec0d17aa19f61e09a582dca4908ca779ea903a76a71efa8bae9",
+      "bytes": 311076,
+      "fetchedAt": "2026-11-10T00:18:33+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2025-01-01/2025-12-31": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2025-01-01/2025-12-31",
+      "file": "data/raw/73a82d4fb19b742e257559af5f11795a84783011f70e23473c5b6853a49c9d29.json",
+      "sha256": "73a82d4fb19b742e257559af5f11795a84783011f70e23473c5b6853a49c9d29",
+      "bytes": 310005,
+      "fetchedAt": "2026-11-10T00:18:35+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2026-01-01/2026-11-09": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/64/dados/diario/2026-01-01/2026-11-09",
+      "file": "data/raw/b443e520343268b185c6cc9aebe7eff1e1d280f6f65c0c5d4b140647a7f62f2a.json",
+      "sha256": "b443e520343268b185c6cc9aebe7eff1e1d280f6f65c0c5d4b140647a7f62f2a",
+      "bytes": 265929,
+      "fetchedAt": "2026-11-10T00:18:36+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    "https://mananciais.sabesp.com.br/api/v4/sistemas/dados/resumo-diario/2026-11-09": {
+      "url": "https://mananciais.sabesp.com.br/api/v4/sistemas/dados/resumo-diario/2026-11-09",
+      "file": "data/raw/d47844e5765b8a7b97a7c0f373247515e9192abca73c3441196ece52de0d52f5.json",
+      "sha256": "d47844e5765b8a7b97a7c0f373247515e9192abca73c3441196ece52de0d52f5",
+      "bytes": 8499,
+      "fetchedAt": "2026-11-10T00:18:37+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8"
+    }
+  }
+}

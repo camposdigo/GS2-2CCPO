@@ -1,0 +1,10 @@
+services:
+  mongo:
+    image: mongodb/mongodb-community-server:9.0-ubi9-slim
+    restart: unless-stopped
+    ports:
+      - '127.0.0.1:27017:27017'
+    volumes:
+      - territorio_mongo:/data/db
+volumes:
+  territorio_mongo:

@@ -1,0 +1,19 @@
+{
+  "launcherStarted": true,
+  "web": {
+    "status": "ok",
+    "storage": {
+      "mode": "demo",
+      "available": true
+    },
+    "classifier": {
+      "urlConfigured": true
+    }
+  },
+  "cnn": {
+    "status": "ok",
+    "modelReady": true
+  },
+  "mode": "demo",
+  "portUsedForIsolatedCheck": 3002
+}

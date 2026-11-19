@@ -1,0 +1,322 @@
+{
+  "generatedAt": "2026-11-10T00:39:50.347Z",
+  "client": "Flutter web in existing local Chrome",
+  "api": "http://localhost:3000",
+  "steps": [
+    {
+      "action": "dashboard",
+      "realVolumeVisible": true
+    },
+    {
+      "action": "alerts",
+      "visible": true,
+      "labels": [
+        {
+          "role": "RootWebArea",
+          "name": "Território Vivo"
+        },
+        {
+          "role": "heading",
+          "name": "Território Vivo"
+        },
+        {
+          "role": "button",
+          "name": "Atualizar indicadores"
+        },
+        {
+          "role": "tab",
+          "name": "Painel"
+        },
+        {
+          "role": "tab",
+          "name": "Alertas"
+        },
+        {
+          "role": "tab",
+          "name": "Ocorrências"
+        },
+        {
+          "role": "tab",
+          "name": "Preferências"
+        },
+        {
+          "role": "StaticText",
+          "name": "Território Vivo"
+        },
+        {
+          "role": "StaticText",
+          "name": "Atualizar indicadores"
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Território Vivo"
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Atualizar "
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "indicadores"
+        },
+        {
+          "role": "StaticText",
+          "name": "Alertas com contexto"
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Alertas com contexto"
+        },
+        {
+          "role": "StaticText",
+          "name": "Cada sinal precisa ser interpretado com sua fonte, período e limitações. Não há decisão automática de racionamento."
+        },
+        {
+          "role": "StaticText",
+          "name": "Cantareira: referência diária de atenção Volume útil observado 53.62% em 2026-11-09. Limiares de referência do art. 4º da Resolução ANA/DAEE 925/2017; enquadramento operacional mensal exige consulta oficial. Confiança: sem probabilidade calibrada de acerto. Cobertura empírica do intervalo no teste: 83.9%. Limitações • Estimativa acadêmica de volume útil a 7 dias; não é previsão oficial nem indicação de potabilidade. • Intervalo empírico calibrado em resíduos passados; dependência temporal e mudanças de operação/clima podem reduzir a cobertura futura. • Sem chuva futura, previsão meteorológica, demanda municipal ou modelagem física dos reservatórios. • Volume agregado do Cantareira não descreve disponibilidade por bairro, desigualdade de acesso ou qualidade da água. • Faixa diária de referência não determina a faixa operacional mensal, que depende de decisão ANA/SP-Águas. • Qualquer ação de alto impacto exige validação e decisão humana de profissional responsável. Revisão humana necessária."
+        },
+        {
+          "role": "StaticText",
+          "name": "Projeção acadêmica para sete dias ridge_alpha_10: 55.18%, intervalo empírico de 90% [53.86%, 56.50%]. MAE teste 0.72 p.p.; persistência 1.23 p.p.; cobertura observada 83.9%. Confiança: sem probabilidade calibrada de acerto. Cobertura empírica do intervalo no teste: 83.9%. Limitações • Estimativa acadêmica de volume útil a 7 dias; não é previsão oficial nem indicação de potabilidade. • Intervalo empírico calibrado em resíduos passados; dependência temporal e mudanças de operação/clima podem reduzir a cobertura futura. • Sem chuva futura, previsão meteorológica, demanda municipal ou modelagem física dos reservatórios. • Volume agregado do Cantareira não descreve disponibilidade por bairro, desigualdade de acesso ou qualidade da água. • Faixa diária de referência não determina a faixa operacional mensal, que depende de decisão ANA/SP-Águas. • Qualquer ação de alto impacto exige validação e decisão humana de profissional responsável. Revisão humana necessária."
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Cada sinal precisa ser interpretado com sua fonte, período e limitações. Não há decisão automática de racionamento."
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Cantareira: referência diária de atenção Volume útil observado 53.62% em 2026-11-09. Limiares de referência do art. 4º da Resolução ANA/DAEE 925/2017; enquadramento operacional mensal exige consulta oficial. Confiança: sem probabilidade calibrada de acerto. Cobertura empírica do intervalo no teste: 83.9%. Limitações • Estimativa acadêmica de volume útil a 7 dias; não é previsão oficial nem indicação de potabilidade. • Intervalo empírico calibrado em resíduos passados; dependência temporal e mudanças de operação/clima podem reduzir a cobertura futura. • Sem chuva futura, previsão meteorológica, demanda municipal ou modelagem física dos reservatórios. • Volume agregado do Cantareira não descreve disponibilidade por bairro, desigualdade de acesso ou qualidade da água. • Faixa diária de referência não determina a faixa operacional mensal, que depende de decisão ANA/SP-Águas. • Qualquer ação de alto impacto exige validação e decisão humana de profissional responsável. Revisão humana necessária."
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Projeção acadêmica para sete dias ridge_alpha_10: 55.18%, intervalo empírico de 90% [53.86%, 56.50%]. MAE teste 0.72 p.p.; persistência 1.23 p.p.; cobertura observada 83.9%. Confiança: sem probabilidade calibrada de acerto. Cobertura empírica do intervalo no teste: 83.9%. Limitações • Estimativa acadêmica de volume útil a 7 dias; não é previsão oficial nem indicação de potabilidade. • Intervalo empírico calibrado em resíduos passados; dependência temporal e mudanças de operação/clima podem reduzir a cobertura futura. • Sem chuva futura, previsão meteorológica, demanda municipal ou modelagem física dos reservatórios. • Volume agregado do Cantareira não descreve disponibilidade por bairro, desigualdade de acesso ou qualidade da água. • Faixa diária de referência não determina a faixa operacional mensal, que depende de decisão ANA/SP-Águas. • Qualquer ação de alto impacto exige validação e decisão humana de profissional responsável. Revisão humana necessária."
+        }
+      ]
+    },
+    {
+      "action": "occurrences",
+      "apiRowsVisible": true
+    },
+    {
+      "action": "favorite-region-reload",
+      "value": "Zona Norte",
+      "persisted": true,
+      "storageKeys": [
+        "favoriteRegion"
+      ]
+    },
+    {
+      "action": "create-occurrence-through-flutter-form",
+      "status": 201,
+      "dataMode": "demo",
+      "protocol": "TV-D1BBB301",
+      "region": "Zona Norte",
+      "listedAfterCreate": true
+    }
+  ],
+  "initialLabels": [
+    {
+      "role": "RootWebArea",
+      "name": "Território Vivo"
+    },
+    {
+      "role": "heading",
+      "name": "Território Vivo"
+    },
+    {
+      "role": "button",
+      "name": "Atualizar indicadores"
+    },
+    {
+      "role": "tab",
+      "name": "Painel"
+    },
+    {
+      "role": "tab",
+      "name": "Alertas"
+    },
+    {
+      "role": "tab",
+      "name": "Ocorrências"
+    },
+    {
+      "role": "tab",
+      "name": "Preferências"
+    },
+    {
+      "role": "StaticText",
+      "name": "Território Vivo"
+    },
+    {
+      "role": "StaticText",
+      "name": "Atualizar indicadores"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Território Vivo"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Atualizar "
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "indicadores"
+    },
+    {
+      "role": "StaticText",
+      "name": "DADOS QUE CUIDAM DO TERRITÓRIO Antecipar para cuidar melhor. Infraestrutura e recursos hídricos com evidências e decisão humana."
+    },
+    {
+      "role": "StaticText",
+      "name": "Sua região: Centro"
+    },
+    {
+      "role": "StaticText",
+      "name": "A preferência personaliza o contexto. Os indicadores hídricos são agregados do Cantareira."
+    },
+    {
+      "role": "StaticText",
+      "name": "Observado em 2026-11-09 · SABESP — Portal dos Mananciais"
+    },
+    {
+      "role": "image",
+      "name": "Histórico e previsão Volume útil (%) · verde: observado · laranja: previsão Volume observado: 38.63612 a 53.62439 por cento, de 2026-07-13 a 2026-11-09. 2026-07-13 — 2026-11-16 Volume observado: 38.63612 a 53.62439 por cento, de 2026-07-13 a 2026-11-09."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "DADOS QUE CUIDAM DO TERRITÓRIO Antecipar para cuidar melhor. Infraestrutura e recursos hídricos com evidências e decisão humana."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Sua região: Centro"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "A preferência personaliza o contexto. Os indicadores hídricos são agregados do Cantareira."
+    },
+    {
+      "role": "StaticText",
+      "name": "Ocorrências de demonstração. As medições hídricas têm origem indicada separadamente."
+    },
+    {
+      "role": "StaticText",
+      "name": "Cantareira · volume útil 53.62%"
+    },
+    {
+      "role": "StaticText",
+      "name": "Ocorrências registradas 4"
+    },
+    {
+      "role": "StaticText",
+      "name": "Variação em sete dias 1.66 p.p."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Observado em 2026-11-09 · SABESP — Portal dos Mananciais"
+    },
+    {
+      "role": "StaticText",
+      "name": "Projeção acadêmica · 2026-11-16 55.18% de volume útil Intervalo empírico: 53.86% a 56.50%. MAE no teste: 0.72 p.p. · referência: 1.23 p.p. Cobertura observada do intervalo: 83.9%. Sem garantia de cobertura futura. Nenhuma restrição de oferta de água é acionada pelo aplicativo."
+    },
+    {
+      "role": "StaticText",
+      "name": "O app apoia análises. Medidas de alto impacto exigem avaliação humana e consulta às autoridades responsáveis."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Ocorrências de demonstração. As medições hídricas têm origem indicada separadamente."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Cantareira · volume útil 53.62%"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Ocorrências registradas 4"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Variação em sete dias 1.66 p.p."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Projeção acadêmica · 2026-11-16 55.18% de volume útil Intervalo empírico: 53.86% a 56.50%. MAE no teste: 0.72 p.p. · referência: 1.23 p.p. Cobertura observada do intervalo: 83.9%. Sem garantia de cobertura futura. Nenhuma restrição de oferta de água é acionada pelo aplicativo."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "O app apoia análises. Medidas de alto impacto exigem avaliação humana e consulta às autoridades responsáveis."
+    }
+  ],
+  "apiRequests": [
+    {
+      "method": "GET",
+      "url": "http://localhost:3000/api/dashboard"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:3000/api/occurrences?limit=50"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:3000/api/dashboard"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:3000/api/occurrences?limit=50"
+    },
+    {
+      "method": "POST",
+      "url": "http://localhost:3000/api/occurrences",
+      "postData": "{\"category\":\"buraco\",\"region\":\"Zona Norte\",\"description\":\"Exemplo sintético de QA Flutter: irregularidade no pavimento dificulta a passagem.\"}"
+    },
+    {
+      "method": "OPTIONS",
+      "url": "http://localhost:3000/api/occurrences"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:3000/api/occurrences?limit=50"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:3000/api/dashboard"
+    }
+  ],
+  "apiResponses": [
+    {
+      "url": "http://localhost:3000/api/dashboard",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:3000/api/occurrences?limit=50",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:3000/api/dashboard",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:3000/api/occurrences?limit=50",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:3000/api/occurrences",
+      "status": 204
+    },
+    {
+      "url": "http://localhost:3000/api/occurrences",
+      "status": 201
+    },
+    {
+      "url": "http://localhost:3000/api/occurrences?limit=50",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:3000/api/dashboard",
+      "status": 200
+    }
+  ],
+  "exceptions": [],
+  "failedRequests": []
+}

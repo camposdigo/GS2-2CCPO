@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-10T00:31:05+00:00",
+  "datasetSha256": "7503226feae75cf5b69c910b93483b441a43978528718ea8addfeadbd78af01c",
+  "target": "volume útil Cantareira em t+7; modelo aprende variação em p.p.",
+  "lookbackDays": 14,
+  "horizonDays": 7,
+  "seed": 42,
+  "selectionRule": "Menor MAE na validação; teste não participa da seleção. Modelo permanece congelado após treino.",
+  "split": "Cronológico 60%/15%/10%/15%; janelas inteiras em cada partição; exclusão de 21 origens por fronteira (14 de histórico + 7 de horizonte).",
+  "partitions": {
+    "train": {
+      "n": 1920,
+      "firstInputDate": "2018-01-01",
+      "firstOrigin": "2018-01-15",
+      "lastOrigin": "2023-04-18",
+      "lastTargetDate": "2023-04-25"
+    },
+    "validation": {
+      "n": 464,
+      "firstInputDate": "2023-04-26",
+      "firstOrigin": "2023-05-10",
+      "lastOrigin": "2024-08-15",
+      "lastTargetDate": "2024-08-22"
+    },
+    "calibration": {
+      "n": 302,
+      "firstInputDate": "2024-08-23",
+      "firstOrigin": "2024-09-06",
+      "lastOrigin": "2025-07-04",
+      "lastTargetDate": "2025-07-11"
+    },
+    "test": {
+      "n": 465,
+      "firstInputDate": "2025-07-12",
+      "firstOrigin": "2025-07-26",
+      "lastOrigin": "2026-11-02",
+      "lastTargetDate": "2026-11-09"
+    }
+  },
+  "featureNames": [
+    "volume_t",
+    "volume_t_minus_1",
+    "volume_t_minus_7",
+    "volume_t_minus_14",
+    "change_1d",
+    "change_7d",
+    "change_14d",
+    "rain_7d_mm",
+    "rain_14d_mm",
+    "inflow_7d_m3s",
+    "withdrawal_7d_m3s",
+    "annual_sin",
+    "annual_cos"
+  ],
+  "selectedModel": "ridge_alpha_10",
+  "candidates": [
+    {
+      "model": "ridge_alpha_10",
+      "mae": 0.544939,
+      "rmse": 0.777559,
+      "bias": -0.071485,
+      "n": 464,
+      "unit": "p.p. de volume útil"
+    },
+    {
+      "model": "ridge_alpha_1",
+      "mae": 0.548234,
+      "rmse": 0.792221,
+      "bias": -0.138902,
+      "n": 464,
+      "unit": "p.p. de volume útil"
+    },
+    {
+      "model": "ridge_alpha_100",
+      "mae": 0.549769,
+      "rmse": 0.766069,
+      "bias": 0.029124,
+      "n": 464,
+      "unit": "p.p. de volume útil"
+    },
+    {
+      "model": "ridge_alpha_0.1",
+      "mae": 0.550051,
+      "rmse": 0.796346,
+      "bias": -0.153548,
+      "n": 464,
+      "unit": "p.p. de volume útil"
+    },
+    {
+      "model": "random_forest_depth_6_leaf_10",
+      "mae": 0.686315,
+      "rmse": 0.949506,
+      "bias": 0.260777,
+      "n": 464,
+      "unit": "p.p. de volume útil"
+    },
+    {
+      "model": "random_forest_depth_12_leaf_5",
+      "mae": 0.70951,
+      "rmse": 0.978079,
+      "bias": 0.300708,
+      "n": 464,
+      "unit": "p.p. de volume útil"
+    }
+  ],
+  "validationBaseline": {
+    "mae": 0.940285,
+    "rmse": 1.08723,
+    "bias": 0.394386,
+    "n": 464,
+    "unit": "p.p. de volume útil"
+  },
+  "validationDrift": {
+    "mae": 0.675941,
+    "rmse": 0.942326,
+    "bias": 0.012861,
+    "n": 464,
+    "unit": "p.p. de volume útil"
+  },
+  "test": {
+    "mae": 0.717844,
+    "rmse": 1.175562,
+    "bias": -0.285522,
+    "n": 465,
+    "unit": "p.p. de volume útil"
+  },
+  "baseline": {
+    "mae": 1.23119,
+    "rmse": 1.710886,
+    "bias": -0.16978,
+    "n": 465,
+    "unit": "p.p. de volume útil"
+  },
+  "drift": {
+    "mae": 0.895677,
+    "rmse": 1.438106,
+    "bias": -0.051016,
+    "n": 465,
+    "unit": "p.p. de volume útil"
+  },
+  "relativeMaeImprovementVsPersistence": 0.416951,
+  "interval": {
+    "method": "Raio do quantil superior de resíduos absolutos de calibração, origens a cada 7 dias",
+    "nominalCoverage": 0.9,
+    "radiusPp": 1.319009,
+    "calibrationSamples": 44,
+    "testCoverage": 0.83871,
+    "nonOverlappingTestCoverage": 0.835821,
+    "nonOverlappingTestSamples": 67,
+    "meanWidthPp": 2.638018,
+    "guarantee": "Sem garantia de cobertura futura: série temporal não permutável; cobertura publicada é empírica."
+  },
+  "coverage": 0.83871,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.2.6",
+    "scikitLearn": "1.6.1"
+  },
+  "limitations": [
+    "Estimativa acadêmica de volume útil a 7 dias; não é previsão oficial nem indicação de potabilidade.",
+    "Intervalo empírico calibrado em resíduos passados; dependência temporal e mudanças de operação/clima podem reduzir a cobertura futura.",
+    "Sem chuva futura, previsão meteorológica, demanda municipal ou modelagem física dos reservatórios.",
+    "Volume agregado do Cantareira não descreve disponibilidade por bairro, desigualdade de acesso ou qualidade da água.",
+    "Faixa diária de referência não determina a faixa operacional mensal, que depende de decisão ANA/SP-Águas.",
+    "Qualquer ação de alto impacto exige validação e decisão humana de profissional responsável."
+  ]
+}

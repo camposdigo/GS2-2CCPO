@@ -1,0 +1,9 @@
+node_modules/
+.env
+data/*.json
+data/*.tmp
+coverage/
+.tools/
+data/browser-*/
+data/mongo-qa/
+evidence/mongo-smoke.log

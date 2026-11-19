@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-11-11T01:04:05.592Z",
+  "baseUrl": "http://localhost:3000",
+  "readOnly": true,
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1200,
+      "layout": {
+        "sidebarCount": 0,
+        "navCount": 4,
+        "navRects": [
+          {
+            "view": "painel",
+            "x": 508.078125,
+            "y": 23.59375,
+            "width": 96.953125,
+            "height": 40.796875
+          },
+          {
+            "view": "ocorrencias",
+            "x": 610.03125,
+            "y": 23.59375,
+            "width": 157.609375,
+            "height": 40.796875
+          },
+          {
+            "view": "classificador",
+            "x": 772.640625,
+            "y": 23.59375,
+            "width": 110.03125,
+            "height": 40.796875
+          },
+          {
+            "view": "projeto",
+            "x": 887.671875,
+            "y": 23.59375,
+            "width": 116.390625,
+            "height": 40.796875
+          }
+        ],
+        "title": "Seu território, mais perto.",
+        "water": "53,6%",
+        "total": "5",
+        "hasChart": true
+      },
+      "overflow": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "bodyWidth": 1425,
+        "mainLeft": 52.5,
+        "mainRight": 1372.5
+      },
+      "modal": {
+        "open": true,
+        "invalid": true,
+        "maxLength": 600,
+        "dialogWidth": 560,
+        "requiredValidationPassed": true,
+        "validInputAcceptedWithoutSaving": true
+      },
+      "navigation": [
+        "painel",
+        "ocorrencias",
+        "classificador",
+        "projeto"
+      ],
+      "filters": {
+        "category": "iluminacao",
+        "region": "Zona Norte",
+        "status": 200,
+        "total": 1,
+        "allRowsMatch": true
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 1250,
+      "layout": {
+        "sidebarCount": 0,
+        "navCount": 4,
+        "navRects": [
+          {
+            "view": "painel",
+            "x": 25,
+            "y": 75,
+            "width": 82.75,
+            "height": 37.59375
+          },
+          {
+            "view": "ocorrencias",
+            "x": 110.75,
+            "y": 75,
+            "width": 82.75,
+            "height": 37.59375
+          },
+          {
+            "view": "classificador",
+            "x": 196.5,
+            "y": 75,
+            "width": 82.75,
+            "height": 37.59375
+          },
+          {
+            "view": "projeto",
+            "x": 282.25,
+            "y": 75,
+            "width": 82.75,
+            "height": 37.59375
+          }
+        ],
+        "title": "Seu território, mais perto.",
+        "water": "53,6%",
+        "total": "5",
+        "hasChart": true
+      },
+      "overflow": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "mainLeft": 0,
+        "mainRight": 390
+      },
+      "modal": {
+        "open": true,
+        "invalid": true,
+        "maxLength": 600,
+        "dialogWidth": 358,
+        "requiredValidationPassed": true,
+        "validInputAcceptedWithoutSaving": true
+      },
+      "navigation": [
+        "painel",
+        "ocorrencias",
+        "classificador",
+        "projeto"
+      ],
+      "filters": {
+        "category": "iluminacao",
+        "region": "Zona Norte",
+        "status": 200,
+        "total": 1,
+        "allRowsMatch": true
+      }
+    },
+    {
+      "name": "mobile-320",
+      "width": 320,
+      "height": 1250,
+      "layout": {
+        "sidebarCount": 0,
+        "navCount": 4,
+        "navRects": [
+          {
+            "view": "painel",
+            "x": 21,
+            "y": 72,
+            "width": 67.25,
+            "height": 37.59375
+          },
+          {
+            "view": "ocorrencias",
+            "x": 91.25,
+            "y": 72,
+            "width": 67.25,
+            "height": 37.59375
+          },
+          {
+            "view": "classificador",
+            "x": 161.5,
+            "y": 72,
+            "width": 67.25,
+            "height": 37.59375
+          },
+          {
+            "view": "projeto",
+            "x": 231.75,
+            "y": 72,
+            "width": 67.25,
+            "height": 37.59375
+          }
+        ],
+        "title": "Seu território, mais perto.",
+        "water": "53,6%",
+        "total": "5",
+        "hasChart": true
+      },
+      "overflow": {
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyWidth": 320,
+        "mainLeft": 0,
+        "mainRight": 320
+      },
+      "modal": {
+        "open": true,
+        "invalid": true,
+        "maxLength": 600,
+        "dialogWidth": 288,
+        "requiredValidationPassed": true,
+        "validInputAcceptedWithoutSaving": true
+      },
+      "navigation": [
+        "painel",
+        "ocorrencias",
+        "classificador",
+        "projeto"
+      ],
+      "filters": {
+        "category": "iluminacao",
+        "region": "Zona Norte",
+        "status": 200,
+        "total": 1,
+        "allRowsMatch": true
+      }
+    }
+  ],
+  "exceptions": [],
+  "failedRequests": [],
+  "mutatingRequests": []
+}

@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-11-10T00:43:37.254Z",
+  "client": "Flutter web in existing local Chrome",
+  "api": "http://localhost:3000",
+  "readOnly": true,
+  "steps": [
+    {
+      "action": "dashboard",
+      "realVolumeVisible": true,
+      "volumePct": 53.62439,
+      "observedAt": "2026-11-09"
+    }
+  ],
+  "initialLabels": [
+    {
+      "role": "RootWebArea",
+      "name": "Território Vivo"
+    },
+    {
+      "role": "heading",
+      "name": "Território Vivo"
+    },
+    {
+      "role": "button",
+      "name": "Atualizar indicadores"
+    },
+    {
+      "role": "tab",
+      "name": "Painel"
+    },
+    {
+      "role": "tab",
+      "name": "Alertas"
+    },
+    {
+      "role": "tab",
+      "name": "Ocorrências"
+    },
+    {
+      "role": "tab",
+      "name": "Preferências"
+    },
+    {
+      "role": "StaticText",
+      "name": "Território Vivo"
+    },
+    {
+      "role": "StaticText",
+      "name": "Atualizar indicadores"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Território Vivo"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Atualizar "
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "indicadores"
+    },
+    {
+      "role": "StaticText",
+      "name": "DADOS QUE CUIDAM DO TERRITÓRIO Antecipar para cuidar melhor. Infraestrutura e recursos hídricos com evidências e decisão humana."
+    },
+    {
+      "role": "StaticText",
+      "name": "Sua região: Centro"
+    },
+    {
+      "role": "StaticText",
+      "name": "A preferência personaliza o contexto. Os indicadores hídricos são agregados do Cantareira."
+    },
+    {
+      "role": "StaticText",
+      "name": "Observado em 2026-11-09 · SABESP — Portal dos Mananciais"
+    },
+    {
+      "role": "image",
+      "name": "Histórico e previsão Volume útil (%) · verde: observado · laranja: previsão Volume observado: 38.63612 a 53.62439 por cento, de 2026-07-13 a 2026-11-09. 2026-07-13 — 2026-11-16 Volume observado: 38.63612 a 53.62439 por cento, de 2026-07-13 a 2026-11-09."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "DADOS QUE CUIDAM DO TERRITÓRIO Antecipar para cuidar melhor. Infraestrutura e recursos hídricos com evidências e decisão humana."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Sua região: Centro"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "A preferência personaliza o contexto. Os indicadores hídricos são agregados do Cantareira."
+    },
+    {
+      "role": "StaticText",
+      "name": "Ocorrências de demonstração. As medições hídricas têm origem indicada separadamente."
+    },
+    {
+      "role": "StaticText",
+      "name": "Cantareira · volume útil 53.62%"
+    },
+    {
+      "role": "StaticText",
+      "name": "Ocorrências registradas 5"
+    },
+    {
+      "role": "StaticText",
+      "name": "Variação em sete dias 1.66 p.p."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Observado em 2026-11-09 · SABESP — Portal dos Mananciais"
+    },
+    {
+      "role": "StaticText",
+      "name": "Projeção acadêmica · 2026-11-16 55.18% de volume útil Intervalo empírico: 53.86% a 56.50%. MAE no teste: 0.72 p.p. · referência: 1.23 p.p. Cobertura observada do intervalo: 83.9%. Sem garantia de cobertura futura. Nenhuma restrição de oferta de água é acionada pelo aplicativo."
+    },
+    {
+      "role": "StaticText",
+      "name": "O app apoia análises. Medidas de alto impacto exigem avaliação humana e consulta às autoridades responsáveis."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Ocorrências de demonstração. As medições hídricas têm origem indicada separadamente."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Cantareira · volume útil 53.62%"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Ocorrências registradas 5"
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Variação em sete dias 1.66 p.p."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "Projeção acadêmica · 2026-11-16 55.18% de volume útil Intervalo empírico: 53.86% a 56.50%. MAE no teste: 0.72 p.p. · referência: 1.23 p.p. Cobertura observada do intervalo: 83.9%. Sem garantia de cobertura futura. Nenhuma restrição de oferta de água é acionada pelo aplicativo."
+    },
+    {
+      "role": "InlineTextBox",
+      "name": "O app apoia análises. Medidas de alto impacto exigem avaliação humana e consulta às autoridades responsáveis."
+    }
+  ],
+  "apiRequests": [
+    {
+      "method": "GET",
+      "url": "http://localhost:3000/api/dashboard"
+    }
+  ],
+  "apiResponses": [
+    {
+      "url": "http://localhost:3000/api/dashboard",
+      "status": 200
+    }
+  ],
+  "exceptions": [],
+  "failedRequests": []
+}

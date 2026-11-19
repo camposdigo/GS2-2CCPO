@@ -1,0 +1,109 @@
+{
+  "verifiedAt": "2026-11-10T00:39:24.486241+00:00",
+  "portalStatus": {
+    "status": "ok",
+    "storage": {
+      "mode": "demo",
+      "available": true
+    },
+    "classifier": {
+      "urlConfigured": true
+    }
+  },
+  "water": {
+    "dataMode": "real",
+    "observedAt": "2026-11-09",
+    "volumePct": 53.62439,
+    "source": "SABESP — Portal dos Mananciais"
+  },
+  "cnn": {
+    "health": {
+      "status": "ok",
+      "modelReady": true
+    },
+    "testSample": "AnnualCrop/AnnualCrop_1168.jpg",
+    "actualClass": "AnnualCrop",
+    "result": {
+      "dataMode": "trained_model",
+      "prediction": {
+        "className": "AnnualCrop",
+        "label": "Cultivo anual",
+        "score": 0.9855520129203796
+      },
+      "probabilities": [
+        {
+          "className": "AnnualCrop",
+          "label": "Cultivo anual",
+          "score": 0.9855520129203796
+        },
+        {
+          "className": "PermanentCrop",
+          "label": "Cultivo permanente",
+          "score": 0.0076333158649504185
+        },
+        {
+          "className": "Highway",
+          "label": "Rodovia",
+          "score": 0.0062871971167624
+        },
+        {
+          "className": "River",
+          "label": "Rio",
+          "score": 0.0003200056671630591
+        },
+        {
+          "className": "HerbaceousVegetation",
+          "label": "Vegetação herbácea",
+          "score": 0.0001331577223027125
+        },
+        {
+          "className": "Pasture",
+          "label": "Pastagem",
+          "score": 6.35628093732521e-05
+        },
+        {
+          "className": "SeaLake",
+          "label": "Mar ou lago",
+          "score": 7.258453479153104e-06
+        },
+        {
+          "className": "Industrial",
+          "label": "Área industrial",
+          "score": 2.714097036005114e-06
+        },
+        {
+          "className": "Forest",
+          "label": "Floresta",
+          "score": 6.770511618015007e-07
+        },
+        {
+          "className": "Residential",
+          "label": "Área residencial",
+          "score": 3.3909781649299475e-08
+        }
+      ],
+      "requiresHumanReview": true,
+      "model": {
+        "name": "TerritorioVivoCNN",
+        "version": "1.0.0",
+        "testAccuracy": 0.6813333333333333,
+        "testMacroF1": 0.6892226313885449
+      },
+      "confidence": {
+        "type": "softmax_uncalibrated",
+        "value": 0.9855520129203796,
+        "label": "Pontuação do modelo; não é confiança calibrada de acerto."
+      },
+      "limitations": [
+        "EuroSAT contém paisagens europeias; não houve validação geográfica no Brasil.",
+        "Separação aleatória estratificada por arquivo; proximidade espacial pode inflar as métricas.",
+        "Somente RGB, imagens redimensionadas para 64×64; não mede potabilidade ou disponibilidade hídrica.",
+        "Pontuação softmax não é probabilidade calibrada de acerto; fotos comuns e imagens fora do domínio podem enganar a rede.",
+        "Resultado acadêmico experimental; não decide intervenções urbanas ou ambientais."
+      ],
+      "disclaimer": "Análise acadêmica de paisagem; não valida risco hídrico, potabilidade ou ações públicas."
+    }
+  },
+  "checksPassed": true,
+  "note": "O portal usa ocorrências de demonstração nesta verificação. MongoDB foi validado separadamente em web/evidence/mongo-smoke.json."
+}

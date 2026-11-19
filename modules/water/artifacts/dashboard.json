@@ -1,0 +1,1137 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "real",
+  "generatedAt": "2026-11-10T00:31:05+00:00",
+  "observedAt": "2026-11-09",
+  "source": {
+    "name": "SABESP — Portal dos Mananciais",
+    "url": "https://mananciais.sabesp.com.br/",
+    "apiUrl": "https://mananciais.sabesp.com.br/api/v4",
+    "manifestPath": "modules/water/data/manifest.json",
+    "license": {
+      "identifier": "not-specified-by-source",
+      "termsUrl": "https://mananciais.sabesp.com.br/",
+      "note": "Portal público; licença específica de reutilização não localizada. Acesso público não equivale a licença aberta. Atribuir SABESP, preservar origem e confirmar termos antes de redistribuição comercial."
+    }
+  },
+  "freshness": {
+    "status": "current",
+    "ageDays": 0,
+    "asOfDate": "2026-11-09",
+    "maxAgeDays": 2,
+    "usableUntil": "2026-11-11",
+    "offline": true
+  },
+  "metrics": {
+    "volumePct": 53.62439,
+    "volumeHm3": 526.63011,
+    "rainMm": 0.8,
+    "inflowM3s": 57.797,
+    "withdrawalM3s": 27.7146,
+    "change7dPp": 1.66377,
+    "band": "Atenção",
+    "bandType": "referência diária; não é enquadramento operacional mensal",
+    "unit": "volumePct em %; variação e erros em pontos percentuais"
+  },
+  "series": [
+    {
+      "date": "2026-07-13",
+      "observed": 38.63612,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-14",
+      "observed": 38.51409,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-15",
+      "observed": 38.41733,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-16",
+      "observed": 38.33701,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-17",
+      "observed": 38.20379,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-18",
+      "observed": 38.03028,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-19",
+      "observed": 37.94845,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-20",
+      "observed": 37.83687,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-21",
+      "observed": 37.72281,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-22",
+      "observed": 37.62776,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-23",
+      "observed": 37.51753,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-24",
+      "observed": 37.39538,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-25",
+      "observed": 37.29181,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-26",
+      "observed": 37.19741,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-27",
+      "observed": 37.08805,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-28",
+      "observed": 36.99067,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-29",
+      "observed": 36.87944,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-30",
+      "observed": 36.78053,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-07-31",
+      "observed": 36.69195,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-01",
+      "observed": 36.56029,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-02",
+      "observed": 36.4243,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-03",
+      "observed": 36.26364,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-04",
+      "observed": 36.12243,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-05",
+      "observed": 35.96747,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-06",
+      "observed": 35.82708,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-07",
+      "observed": 35.69291,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-08",
+      "observed": 35.6434,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-09",
+      "observed": 35.61105,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-10",
+      "observed": 35.59463,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-11",
+      "observed": 35.51323,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-12",
+      "observed": 35.41001,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-13",
+      "observed": 35.29689,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-14",
+      "observed": 35.1563,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-15",
+      "observed": 35.06182,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-16",
+      "observed": 35.02095,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-17",
+      "observed": 34.90638,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-18",
+      "observed": 34.76034,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-19",
+      "observed": 34.59476,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-20",
+      "observed": 34.44145,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-21",
+      "observed": 34.25684,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-22",
+      "observed": 34.10934,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-23",
+      "observed": 33.96205,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-24",
+      "observed": 33.80293,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-25",
+      "observed": 33.66481,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-26",
+      "observed": 33.55126,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-27",
+      "observed": 33.40109,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-28",
+      "observed": 33.29227,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-29",
+      "observed": 33.13983,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-30",
+      "observed": 33.01831,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-08-31",
+      "observed": 33.02317,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-01",
+      "observed": 33.14994,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-02",
+      "observed": 33.34429,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-03",
+      "observed": 33.38682,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-04",
+      "observed": 33.34383,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-05",
+      "observed": 33.28514,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-06",
+      "observed": 33.417,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-07",
+      "observed": 33.63454,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-08",
+      "observed": 33.60918,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-09",
+      "observed": 33.60343,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-10",
+      "observed": 33.74929,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-11",
+      "observed": 34.75431,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-12",
+      "observed": 36.30677,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-13",
+      "observed": 37.59741,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-14",
+      "observed": 38.23629,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-15",
+      "observed": 39.0628,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-16",
+      "observed": 39.55282,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-17",
+      "observed": 39.86692,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-18",
+      "observed": 40.07497,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-19",
+      "observed": 40.19332,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-20",
+      "observed": 40.30012,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-21",
+      "observed": 40.4348,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-22",
+      "observed": 40.61683,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-23",
+      "observed": 40.93518,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-24",
+      "observed": 41.19789,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-25",
+      "observed": 41.31375,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-26",
+      "observed": 41.36621,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-27",
+      "observed": 41.31975,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-28",
+      "observed": 41.22785,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-29",
+      "observed": 41.18761,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-09-30",
+      "observed": 41.12352,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-01",
+      "observed": 41.06756,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-02",
+      "observed": 41.07908,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-03",
+      "observed": 41.05792,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-04",
+      "observed": 41.03791,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-05",
+      "observed": 41.16474,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-06",
+      "observed": 41.42079,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-07",
+      "observed": 41.67761,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-08",
+      "observed": 41.81507,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-09",
+      "observed": 41.87399,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-10",
+      "observed": 42.29835,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-11",
+      "observed": 42.69533,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-12",
+      "observed": 43.56,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-13",
+      "observed": 44.01291,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-14",
+      "observed": 44.30334,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-15",
+      "observed": 44.42607,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-16",
+      "observed": 44.82976,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-17",
+      "observed": 45.2671,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-18",
+      "observed": 45.55453,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-19",
+      "observed": 45.76769,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-20",
+      "observed": 45.86539,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-21",
+      "observed": 45.91245,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-22",
+      "observed": 45.98255,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-23",
+      "observed": 46.09214,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-24",
+      "observed": 46.21892,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-25",
+      "observed": 47.20305,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-26",
+      "observed": 48.43133,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-27",
+      "observed": 49.24748,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-28",
+      "observed": 49.78448,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-29",
+      "observed": 50.05569,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-30",
+      "observed": 50.70535,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-10-31",
+      "observed": 51.20491,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-01",
+      "observed": 51.54631,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-02",
+      "observed": 51.96062,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-03",
+      "observed": 52.23305,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-04",
+      "observed": 52.52035,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-05",
+      "observed": 52.66154,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-06",
+      "observed": 52.80141,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-07",
+      "observed": 52.93883,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-08",
+      "observed": 53.35746,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-09",
+      "observed": 53.62439,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "date": "2026-11-16",
+      "observed": null,
+      "forecast": 55.17871,
+      "lower": 53.8597,
+      "upper": 56.49772
+    }
+  ],
+  "forecast": {
+    "targetDate": "2026-11-16",
+    "valuePct": 55.17871,
+    "lowerPct": 53.8597,
+    "upperPct": 56.49772,
+    "horizonDays": 7,
+    "model": "ridge_alpha_10",
+    "intervalLevel": 0.9,
+    "requiresHumanReview": true,
+    "trainedThrough": "2023-04-25",
+    "calibratedThrough": "2025-07-11",
+    "publishedAfterEvaluation": true,
+    "usableUntil": "2026-11-11",
+    "expired": false
+  },
+  "evaluation": {
+    "schemaVersion": 1,
+    "generatedAt": "2026-11-10T00:31:05+00:00",
+    "datasetSha256": "7503226feae75cf5b69c910b93483b441a43978528718ea8addfeadbd78af01c",
+    "target": "volume útil Cantareira em t+7; modelo aprende variação em p.p.",
+    "lookbackDays": 14,
+    "horizonDays": 7,
+    "seed": 42,
+    "selectionRule": "Menor MAE na validação; teste não participa da seleção. Modelo permanece congelado após treino.",
+    "split": "Cronológico 60%/15%/10%/15%; janelas inteiras em cada partição; exclusão de 21 origens por fronteira (14 de histórico + 7 de horizonte).",
+    "partitions": {
+      "train": {
+        "n": 1920,
+        "firstInputDate": "2018-01-01",
+        "firstOrigin": "2018-01-15",
+        "lastOrigin": "2023-04-18",
+        "lastTargetDate": "2023-04-25"
+      },
+      "validation": {
+        "n": 464,
+        "firstInputDate": "2023-04-26",
+        "firstOrigin": "2023-05-10",
+        "lastOrigin": "2024-08-15",
+        "lastTargetDate": "2024-08-22"
+      },
+      "calibration": {
+        "n": 302,
+        "firstInputDate": "2024-08-23",
+        "firstOrigin": "2024-09-06",
+        "lastOrigin": "2025-07-04",
+        "lastTargetDate": "2025-07-11"
+      },
+      "test": {
+        "n": 465,
+        "firstInputDate": "2025-07-12",
+        "firstOrigin": "2025-07-26",
+        "lastOrigin": "2026-11-02",
+        "lastTargetDate": "2026-11-09"
+      }
+    },
+    "featureNames": [
+      "volume_t",
+      "volume_t_minus_1",
+      "volume_t_minus_7",
+      "volume_t_minus_14",
+      "change_1d",
+      "change_7d",
+      "change_14d",
+      "rain_7d_mm",
+      "rain_14d_mm",
+      "inflow_7d_m3s",
+      "withdrawal_7d_m3s",
+      "annual_sin",
+      "annual_cos"
+    ],
+    "selectedModel": "ridge_alpha_10",
+    "candidates": [
+      {
+        "model": "ridge_alpha_10",
+        "mae": 0.544939,
+        "rmse": 0.777559,
+        "bias": -0.071485,
+        "n": 464,
+        "unit": "p.p. de volume útil"
+      },
+      {
+        "model": "ridge_alpha_1",
+        "mae": 0.548234,
+        "rmse": 0.792221,
+        "bias": -0.138902,
+        "n": 464,
+        "unit": "p.p. de volume útil"
+      },
+      {
+        "model": "ridge_alpha_100",
+        "mae": 0.549769,
+        "rmse": 0.766069,
+        "bias": 0.029124,
+        "n": 464,
+        "unit": "p.p. de volume útil"
+      },
+      {
+        "model": "ridge_alpha_0.1",
+        "mae": 0.550051,
+        "rmse": 0.796346,
+        "bias": -0.153548,
+        "n": 464,
+        "unit": "p.p. de volume útil"
+      },
+      {
+        "model": "random_forest_depth_6_leaf_10",
+        "mae": 0.686315,
+        "rmse": 0.949506,
+        "bias": 0.260777,
+        "n": 464,
+        "unit": "p.p. de volume útil"
+      },
+      {
+        "model": "random_forest_depth_12_leaf_5",
+        "mae": 0.70951,
+        "rmse": 0.978079,
+        "bias": 0.300708,
+        "n": 464,
+        "unit": "p.p. de volume útil"
+      }
+    ],
+    "validationBaseline": {
+      "mae": 0.940285,
+      "rmse": 1.08723,
+      "bias": 0.394386,
+      "n": 464,
+      "unit": "p.p. de volume útil"
+    },
+    "validationDrift": {
+      "mae": 0.675941,
+      "rmse": 0.942326,
+      "bias": 0.012861,
+      "n": 464,
+      "unit": "p.p. de volume útil"
+    },
+    "test": {
+      "mae": 0.717844,
+      "rmse": 1.175562,
+      "bias": -0.285522,
+      "n": 465,
+      "unit": "p.p. de volume útil"
+    },
+    "baseline": {
+      "mae": 1.23119,
+      "rmse": 1.710886,
+      "bias": -0.16978,
+      "n": 465,
+      "unit": "p.p. de volume útil"
+    },
+    "drift": {
+      "mae": 0.895677,
+      "rmse": 1.438106,
+      "bias": -0.051016,
+      "n": 465,
+      "unit": "p.p. de volume útil"
+    },
+    "relativeMaeImprovementVsPersistence": 0.416951,
+    "interval": {
+      "method": "Raio do quantil superior de resíduos absolutos de calibração, origens a cada 7 dias",
+      "nominalCoverage": 0.9,
+      "radiusPp": 1.319009,
+      "calibrationSamples": 44,
+      "testCoverage": 0.83871,
+      "nonOverlappingTestCoverage": 0.835821,
+      "nonOverlappingTestSamples": 67,
+      "meanWidthPp": 2.638018,
+      "guarantee": "Sem garantia de cobertura futura: série temporal não permutável; cobertura publicada é empírica."
+    },
+    "coverage": 0.83871,
+    "versions": {
+      "python": "3.12.10",
+      "numpy": "2.2.6",
+      "scikitLearn": "1.6.1"
+    },
+    "limitations": [
+      "Estimativa acadêmica de volume útil a 7 dias; não é previsão oficial nem indicação de potabilidade.",
+      "Intervalo empírico calibrado em resíduos passados; dependência temporal e mudanças de operação/clima podem reduzir a cobertura futura.",
+      "Sem chuva futura, previsão meteorológica, demanda municipal ou modelagem física dos reservatórios.",
+      "Volume agregado do Cantareira não descreve disponibilidade por bairro, desigualdade de acesso ou qualidade da água.",
+      "Faixa diária de referência não determina a faixa operacional mensal, que depende de decisão ANA/SP-Águas.",
+      "Qualquer ação de alto impacto exige validação e decisão humana de profissional responsável."
+    ]
+  },
+  "dataQuality": {
+    "rows": 3235,
+    "firstObservedAt": "2018-01-01",
+    "lastObservedAt": "2026-11-09",
+    "missingDates": [],
+    "nullFields": {
+      "volumePct": 0,
+      "rainMm": 0,
+      "inflowM3s": 0,
+      "withdrawalM3s": 0,
+      "downstreamM3s": 0,
+      "volumeHm3": 0
+    },
+    "imputation": "none",
+    "requestedAsOf": "2026-11-09",
+    "sourceLastDate": "2026-11-09",
+    "processedAt": "2026-11-10T00:29:18+00:00",
+    "offline": true,
+    "normalizedSha256": "7503226feae75cf5b69c910b93483b441a43978528718ea8addfeadbd78af01c",
+    "license": {
+      "identifier": "not-specified-by-source",
+      "termsUrl": "https://mananciais.sabesp.com.br/",
+      "note": "Portal público; licença específica de reutilização não localizada. Acesso público não equivale a licença aberta. Atribuir SABESP, preservar origem e confirmar termos antes de redistribuição comercial."
+    }
+  },
+  "alerts": [
+    {
+      "level": "warning",
+      "title": "Cantareira: referência diária de atenção",
+      "justification": "Volume útil observado 53.62% em 2026-11-09. Limiares de referência do art. 4º da Resolução ANA/DAEE 925/2017; enquadramento operacional mensal exige consulta oficial.",
+      "confidence": null,
+      "sourceUrl": "https://www.gov.br/ana/pt-br/legislacao/resolucoes/resolucoes-regulatorias/2017/925",
+      "limitations": [
+        "Estimativa acadêmica de volume útil a 7 dias; não é previsão oficial nem indicação de potabilidade.",
+        "Intervalo empírico calibrado em resíduos passados; dependência temporal e mudanças de operação/clima podem reduzir a cobertura futura.",
+        "Sem chuva futura, previsão meteorológica, demanda municipal ou modelagem física dos reservatórios.",
+        "Volume agregado do Cantareira não descreve disponibilidade por bairro, desigualdade de acesso ou qualidade da água.",
+        "Faixa diária de referência não determina a faixa operacional mensal, que depende de decisão ANA/SP-Águas.",
+        "Qualquer ação de alto impacto exige validação e decisão humana de profissional responsável."
+      ],
+      "requiresHumanReview": true
+    },
+    {
+      "level": "info",
+      "title": "Projeção acadêmica para sete dias",
+      "justification": "ridge_alpha_10: 55.18%, intervalo empírico de 90% [53.86%, 56.50%]. MAE teste 0.72 p.p.; persistência 1.23 p.p.; cobertura observada 83.9%.",
+      "confidence": null,
+      "limitations": [
+        "Estimativa acadêmica de volume útil a 7 dias; não é previsão oficial nem indicação de potabilidade.",
+        "Intervalo empírico calibrado em resíduos passados; dependência temporal e mudanças de operação/clima podem reduzir a cobertura futura.",
+        "Sem chuva futura, previsão meteorológica, demanda municipal ou modelagem física dos reservatórios.",
+        "Volume agregado do Cantareira não descreve disponibilidade por bairro, desigualdade de acesso ou qualidade da água.",
+        "Faixa diária de referência não determina a faixa operacional mensal, que depende de decisão ANA/SP-Águas.",
+        "Qualquer ação de alto impacto exige validação e decisão humana de profissional responsável."
+      ],
+      "requiresHumanReview": true
+    },
+    {
+      "level": "warning",
+      "title": "Intervalo abaixo da cobertura nominal no teste",
+      "justification": "O intervalo nominal de 90% cobriu 83.9% dos alvos reais de teste. A incerteza está subestimada neste período; não tratar 90% como probabilidade de acerto individual.",
+      "confidence": null,
+      "limitations": [
+        "Não recalibrar usando o teste e reapresentar esse mesmo teste como evidência independente.",
+        "Validar novamente em período futuro antes de uso operacional."
+      ],
+      "requiresHumanReview": true
+    }
+  ]
+}

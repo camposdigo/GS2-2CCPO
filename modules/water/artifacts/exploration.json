@@ -1,0 +1,86 @@
+{
+  "rows": 3235,
+  "start": "2018-01-01",
+  "end": "2026-11-09",
+  "missingDates": 0,
+  "nulls": {
+    "volumePct": 0,
+    "rainMm": 0,
+    "inflowM3s": 0,
+    "withdrawalM3s": 0,
+    "downstreamM3s": 0,
+    "volumeHm3": 0
+  },
+  "volumePct": {
+    "min": 19.28869,
+    "p25": 38.278225,
+    "median": 45.84571,
+    "p75": 57.709385,
+    "max": 85.90546,
+    "mean": 48.68935868315301,
+    "std": 15.111617027251233
+  },
+  "rainMm": {
+    "meanDaily": 3.6061870170015453,
+    "maxDaily": 71.8,
+    "zeroDays": 1591
+  },
+  "correlationRainAndSameDayVolumeChange": 0.6230532738068923,
+  "correlationCaution": "Correlação exploratória contemporânea, sem interpretação causal nem uso na seleção de features após olhar o teste.",
+  "byYear": [
+    {
+      "year": 2018,
+      "days": 365,
+      "meanVolumePct": 43.282,
+      "rainSumMm": 1232.25
+    },
+    {
+      "year": 2019,
+      "days": 365,
+      "meanVolumePct": 49.246,
+      "rainSumMm": 1358.3
+    },
+    {
+      "year": 2020,
+      "days": 366,
+      "meanVolumePct": 49.462,
+      "rainSumMm": 1182.2
+    },
+    {
+      "year": 2021,
+      "days": 365,
+      "meanVolumePct": 40.053,
+      "rainSumMm": 1087.05
+    },
+    {
+      "year": 2022,
+      "days": 365,
+      "meanVolumePct": 37.385,
+      "rainSumMm": 1402.5
+    },
+    {
+      "year": 2023,
+      "days": 365,
+      "meanVolumePct": 73.831,
+      "rainSumMm": 1526.615
+    },
+    {
+      "year": 2024,
+      "days": 366,
+      "meanVolumePct": 63.107,
+      "rainSumMm": 1349.4
+    },
+    {
+      "year": 2025,
+      "days": 365,
+      "meanVolumePct": 42.592,
+      "rainSumMm": 1140.5
+    },
+    {
+      "year": 2026,
+      "days": 313,
+      "meanVolumePct": 37.631,
+      "rainSumMm": 1387.2
+    }
+  ]
+}

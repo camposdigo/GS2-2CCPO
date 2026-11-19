@@ -1,0 +1,4 @@
+# Preserva os bytes originais dos dados e modelos cujos hashes sao auditados.
+* -text whitespace=trailing-space,space-before-tab,cr-at-eol
+# Espacos no XML das figuras geradas fazem parte da serializacao do grafico.
+modules/water/artifacts/figures/*.svg -whitespace

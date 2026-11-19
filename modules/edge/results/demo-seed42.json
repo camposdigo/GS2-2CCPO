@@ -1,0 +1,98 @@
+{
+  "scenario": {
+    "source": "synthetic",
+    "seed": 42,
+    "duration_seconds": 600,
+    "config": {
+      "min_green": 8,
+      "max_green": 18,
+      "yellow": 3,
+      "all_red": 2,
+      "gate_opening": 2,
+      "walk_entry": 4,
+      "crossing_metres": 12.0,
+      "walking_metres_per_second": 0.8,
+      "pedestrian_startup": 3
+    },
+    "pedestrian_clearance_seconds": 18,
+    "notice": "Simulacao didatica; baseline nao e algoritmo do professor."
+  },
+  "before_synthetic_legacy": {
+    "flows": {
+      "ns": {
+        "arrivals": 129,
+        "started": 129,
+        "completed": 129,
+        "queued_at_end": 0,
+        "crossing_at_end": 0,
+        "mean_wait_started_seconds": 1.419,
+        "largest_observed_wait_seconds": 12,
+        "mean_queue": 0.305
+      },
+      "ew": {
+        "arrivals": 105,
+        "started": 92,
+        "completed": 92,
+        "queued_at_end": 13,
+        "crossing_at_end": 0,
+        "mean_wait_started_seconds": 40.62,
+        "largest_observed_wait_seconds": 103,
+        "mean_queue": 6.875
+      },
+      "ped": {
+        "arrivals": 36,
+        "started": 36,
+        "completed": 35,
+        "queued_at_end": 0,
+        "crossing_at_end": 1,
+        "mean_wait_started_seconds": 19.611,
+        "largest_observed_wait_seconds": 44,
+        "mean_queue": 1.177
+      }
+    },
+    "conflicting_signal_seconds": 24,
+    "pedestrian_crossing_conflict_seconds": 150
+  },
+  "after_safe_controller": {
+    "flows": {
+      "ns": {
+        "arrivals": 129,
+        "started": 129,
+        "completed": 129,
+        "queued_at_end": 0,
+        "crossing_at_end": 0,
+        "mean_wait_started_seconds": 33.256,
+        "largest_observed_wait_seconds": 70,
+        "mean_queue": 7.15
+      },
+      "ew": {
+        "arrivals": 105,
+        "started": 105,
+        "completed": 105,
+        "queued_at_end": 0,
+        "crossing_at_end": 0,
+        "mean_wait_started_seconds": 22.571,
+        "largest_observed_wait_seconds": 54,
+        "mean_queue": 3.95
+      },
+      "ped": {
+        "arrivals": 36,
+        "started": 35,
+        "completed": 35,
+        "queued_at_end": 1,
+        "crossing_at_end": 0,
+        "mean_wait_started_seconds": 27.629,
+        "largest_observed_wait_seconds": 58,
+        "mean_queue": 1.657
+      }
+    },
+    "conflicting_signal_seconds": 0,
+    "pedestrian_crossing_conflict_seconds": 0
+  },
+  "measurement_limits": [
+    "Espera media considera quem iniciou atendimento; filas finais sao exibidas para evitar ocultar censura.",
+    "Largest observed wait inclui a espera ja acumulada de quem segue na fila.",
+    "Fairness oferece fases a todos os fluxos pendentes; demanda acima da capacidade pode aumentar filas.",
+    "Conflitos sao eventos da simulacao, nao acidentes observados nem evidencia de hardware."
+  ]
+}

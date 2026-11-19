@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-11-10T00:31:12.340Z",
+  "mongoVersion": "8.2.12",
+  "mode": "mongodb",
+  "createdStatus": 201,
+  "protocol": "TV-5743CE02",
+  "sameIdAfterApiAndDatabaseRestart": true,
+  "directDatabaseDocumentCount": 1,
+  "testDatabaseRemovedAfterCheck": true,
+  "globalServiceInstalled": false,
+  "bindAddress": "127.0.0.1"
+}
